@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syaiful Portofolio</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/ico" href="assets/img/fav icon/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="assets/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div
+            class="container d-flex justify-content-between align-items-center"
+          >
+            <div class="navbar-brand d-flex col-1-4 col-1-2 align-items-center">
+              <a class="fc-primary" href="#about">Syaiful</a>
+            </div>
+            <ul
+              class="navbar-nav d-flex justify-content-end col-3-4"
+              id="mobile-nav"
+            >
+              <li class="nav-item">
+                <a href="#about" class="nav-link fc-primary" onclick="hideNav()"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#projects"
+                  class="nav-link fc-primary"
+                  onclick="hideNav()"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#get-in-touch"
+                  class="nav-link fc-primary"
+                  onclick="hideNav()"
+                  >Get In Touch</a
+                >
+              </li>
+            </ul>
+
+            <div class="toggle-menu">
+              <input type="checkbox" onclick="openNav()" id="checkbox"/>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="website-content">
+        <div class="container">
+          <div class="d-flex">
+            <aside class="col-1-4 col-2-2">
+              <div class="profil-box">
+                <img
+                src="assets/img/profil.jpg"
+                alt="profil"
+                class="profil-img"
+              />
+              </div>
+              <div class="aside-body">
+                <h3 class="fc-primary">Syaiful Hadi</h3>
+                <p class="body1">
+                  Graduate SMK Negeri 1 Bojonegoro
+                </p>
+              </div>
+              <div class="aside-footer">
+                <p class="body1">How to reach me:</p>
+                <ul>
+                  <li class="mt-05">
+                    <a
+                      href="https://www.youtube.com/channel/UCA09QfwKHSe7ZEHIlboOOLg"
+                      target="_blank"
+                      class="aside-link"
+                      >🎥 Youtube</a
+                    >
+                  </li>
+                  <li class="mt-05">
+                    <a
+                      href="https://senopati.tech"
+                      target="_blank"
+                      class="aside-link"
+                      >📒 Blogger</a
+                    >
+                  </li>
+                  <li class="mt-05">
+                    <a href="https://github.com/syaifulhd90" class="aside-link"
+                      >🔮 Github</a
+                    >
+                  </li>
+                  <li class="mt-05">
+                    <a
+                      href="https://www.instagram.com/hadiytl_/"
+                      target="_blank"
+                      class="aside-link"
+                      >📷 Instagram</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </aside>
+            <main class="col-3-4 col-2-2">
+              <article id="about" class="card">
+                <p class="caption fc-secondary">ABOUT ME</p>
+                <h3 class="fc-primary">Hi, Syaiful here 👋</h3>
+                <p class="body2">
+                  Saya adalah seorang yang sangat suka dengan komputer. Sebagai seseorang dengan layar belakang ilmu komputer, saya sangat menyukai Pengembangan Front-end, Pengembangan Back-End, System Administrator Mikrotik, Cisco, Linux Server. Saya pernah mengikuti beberapa Lomba dan Pernah Memenangkan Lomba Olimpiade Jaringan Mikrotik 2019 di Surabaya. Saya juga aktif di Cyber Security
+                  <br /><br />
+                  Thank you for visiting. <br />Syaiful Hadi.
+                </p>
+                <div class="action">
+                  <a
+                    href="https://drive.google.com/file/d/1u5zKsZ26F7R-rbN7BI-_x5gOZNa0S7cD/view?usp=sharing"
+                    target="_blank"
+                    class="btn-link"
+                    >Download CV 📄</a
+                  >
+                </div>
+              </article>
+
+              <article id="skill" class="card mt-2">
+                <p class="caption fc-secondary">MY SKILL</p>
+                <h3 class="fc-primary">What I Do 💼</h3>
+                <div class="d-flex align-items-center">
+                  <div class="col-2-4">
+                    <img
+                      src="assets/img/jaringan.jpeg"
+                      alt="ux image"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="col-2-4">
+                    <h3 class="fc-primary">System Administrator</h3>
+                    <p class="body2">
+                      Instalasi Server Jaringan menggunakan Mikrotik dan Cisco, Membuat Server Hosting menggunakan Debian Server dan Ubuntu Server atau pun Keluarga Linux Lainnya
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center reverse">
+                  <div class="col-2-4 mt-2">
+                    <img
+                      src="assets/img/web.png"
+                      alt="ux image"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="col-2-4 mt-2">
+                    <h3 class="fc-primary">Web Development</h3>
+                    <p class="body2">
+                      Membuat Website dengan menggunakan Basic Framework
+                      Laravel, Wordpress, Joomla dan Bootstrap.
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="col-2-4">
+                    <img
+                      src="assets/img/ux.png"
+                      alt="ux image"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="col-2-4">
+                    <h3 class="fc-primary">UX & UI Design</h3>
+                    <p class="body2">
+                      Membuat Design Website Responsive menggunakan HTML5, CSS3, FLEX, GRID atau pun dengan FIGMA DESIGN
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article id="projects" class="card mt-2">
+                <p class="caption fc-secondary">PORTOFOLIO</p>
+                <h3 class="fc-primary">My Projects 🎬</h3>
+                <ul>
+                  <li>
+                    <h3 class="fc-primary">
+                      Event Muslim: Muslim Event Platform
+                    </h3>
+                    <p class="body2 mt-05">
+                      Jan 2021 • Software Engineering Project (Hackathon) • UX &
+                      UI Designer
+                    </p>
+                    <div class="action">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn-link"
+                        >See Project 👉</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </article>
+              <article id="get-in-touch" class="card mt-2">
+                <p class="caption fc-secondary">CONNECT</p>
+                <h3 class="fc-primary">Get In Touch ☕</h3>
+                <div class="d-flex mt-05 justify-content-between">
+                  <div class="col-1-4 btn-link">
+                    <a
+                      href="https://www.youtube.com/channel/UCA09QfwKHSe7ZEHIlboOOLg"
+                      target="_blank"
+                      class="deco-none fc-secondary"
+                      >🎥 Youtube</a
+                    >
+                  </div>
+                  <div class="col-1-4 btn-link">
+                    <a
+                      href="https://senopati.tech"
+                      target="_blank"
+                      class="deco-none fc-secondary"
+                      >📒 Blogger</a
+                    >
+                  </div>
+                  <div class="col-1-4 btn-link">
+                    <a
+                      href="https://github.com/syaifulhd90"
+                      target="_blank"
+                      class="deco-none fc-secondary"
+                      >🔮 Github</a
+                    >
+                  </div>
+                  <div class="col-1-4 btn-link">
+                    <a
+                      href="https://www.instagram.com/hadiytl_"
+                      target="_blank"
+                      class="deco-none fc-secondary"
+                      >📷 Instagram</a
+                    >
+                  </div>
+                </div>
+              </article>
+            </main>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <p class="body1">
+            © 2020 Made with love by Syaiful Hadi.
+            Notion.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
