@@ -1,0 +1,9 @@
+@media( min-width:600px ){
+	.profil-box{
+  		width: unset;
+  		height: unset;
+  		border-radius: 50%;
+  		height: 180px;
+ 		width: 180px;
+	}
+}
